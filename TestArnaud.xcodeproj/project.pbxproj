@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99AC0E212455D46600492E5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99AC0E202455D46600492E5C /* main.cpp */; };
+		99AC0E292455DDE400492E5C /* Sommet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99AC0E272455DDE400492E5C /* Sommet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		99AC0E1D2455D46600492E5C /* TestArnaud */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestArnaud; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AC0E202455D46600492E5C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		99AC0E272455DDE400492E5C /* Sommet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sommet.cpp; sourceTree = "<group>"; };
+		99AC0E282455DDE400492E5C /* Sommet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sommet.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				99AC0E202455D46600492E5C /* main.cpp */,
+				99AC0E272455DDE400492E5C /* Sommet.cpp */,
+				99AC0E282455DDE400492E5C /* Sommet.hpp */,
 			);
 			path = TestArnaud;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AC0E292455DDE400492E5C /* Sommet.cpp in Sources */,
 				99AC0E212455D46600492E5C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

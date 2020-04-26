@@ -7,11 +7,16 @@
 //
 
 #include <iostream>
+#include "Sommet.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
+int main() {
+    
+    Sommet s;
     std::cout << "Hello, World!\n";
     std::cout << "ta mere en slip"<<std::endl;
     std::cout << "attends un peu"<<std::endl;
+    
+    s.affichageBidon();
+    
     return 0;
 }
