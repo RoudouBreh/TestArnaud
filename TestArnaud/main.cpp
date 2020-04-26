@@ -10,14 +10,15 @@
 #include "Sommet.hpp"
 
 int main() {
-    
+
     Sommet s;
     std::cout << "Hello, World!\n";
     std::cout << "ta mere en slip"<<std::endl;
     std::cout << "attends un peu"<<std::endl;
     std::cout << "bye bye la corée"<<std::endl;
-    
+    std::cout<< "adios";
+
     s.affichageBidon();
-    
+
     return 0;
 }
